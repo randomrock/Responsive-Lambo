@@ -295,3 +295,21 @@ p{
     }
 }
 /*Overriding Changes*/
+@media(max-height: 600px){
+    .trees{
+        bottom: 63vh;
+    }
+}
+@media(max-height: 700px){
+    .trees{
+        bottom: 50vh;
+    }
+    .track{
+        animation-duration: 1s;
+    }
+}
+@media(max-height: 500px){
+    .trees{
+        bottom: 70vh;
+    }
+}
