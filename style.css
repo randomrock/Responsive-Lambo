@@ -24,7 +24,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     position: absolute;
-    bottom: 12vh; /*9*/
+    bottom: 9vh; 
     z-index: 0;
     background-repeat: no-repeat;
     /* background-image: url(/Car-Animated/trees.png); */
