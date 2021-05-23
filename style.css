@@ -262,3 +262,9 @@ p{
     color: peru;
 
 }
+@media(max-width: 600px){
+    p{
+        font-size: 28px !important;
+        top: 17vh;
+    }
+}
