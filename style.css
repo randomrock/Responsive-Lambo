@@ -152,7 +152,7 @@
     }
     .track{
         width: 900vw;
-        animation: move linear 5s infinite;
+        animation: move linear 7s infinite;
         }
 }
 @media(max-width: 600px){
@@ -161,7 +161,7 @@
     left: 27vw;
 }
     #play{
-    top: 46vh;
+    top: 43vh;
     left: 27vw;
     }
 }
@@ -174,7 +174,7 @@
     }
     .track{
         width: 900vw;
-        animation: move linear 4.5s infinite;
+        animation: move linear 6.5s infinite;
         }
 }
 @media(max-width: 400px){
