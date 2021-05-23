@@ -145,7 +145,7 @@ html{
         right: 4.8%;
     }
     .track{
-        animation: move linear 2s infinite;
+        animation: move linear 3s infinite;
         }
 }
 @media(max-width: 500px){
@@ -156,7 +156,7 @@ html{
         right: 4.5%;
     }
     .track{
-        animation: move linear 1s infinite;
+        animation: move linear 2s infinite;
         }
 }
 @media(max-width: 400px){
