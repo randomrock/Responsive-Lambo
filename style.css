@@ -33,7 +33,7 @@
     height: 100vh;
     background-repeat: repeat-x;
     background-image: url(/Responsive-Lambo/track.png);
-    animation: move linear 10s infinite;
+    animation: move linear 9s infinite;
     
 }
 .car{
@@ -64,7 +64,7 @@
     width: 28%;
     right: 7.2%;
     top: 17%;
-    animation: wheelRotation 0.2s infinite forwards;
+    animation: wheelRotation 0.1s infinite forwards;
 }
 .wheel2{
     width: 35%;
@@ -78,7 +78,7 @@
     width: 32%;
     left: 12%;
     bottom: 34%;
-    animation: wheelRotation 0.2s infinite forwards;
+    animation: wheelRotation 0.1s infinite forwards;
 }
 
 @keyframes wheelRotation{
@@ -91,10 +91,7 @@
         transform: translateX(-500vw);
     }
 }
-html{
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+
 @keyframes shake{
     0%{
         transform: translateY(-5px);
@@ -126,6 +123,7 @@ html{
         right: 6.8%;
     }
     .track{
+        width: 900vw;
     animation: move linear 3s infinite;
     }
 }
@@ -145,7 +143,8 @@ html{
         right: 4.8%;
     }
     .track{
-        animation: move linear 2.5s infinite;
+        width: 900vw;
+        animation: move linear 3s infinite;
         }
 }
 @media(max-width: 500px){
@@ -156,7 +155,8 @@ html{
         right: 4.5%;
     }
     .track{
-        animation: move linear 2s infinite;
+        width: 900vw;
+        animation: move linear 3s infinite;
         }
 }
 @media(max-width: 400px){
@@ -165,10 +165,10 @@ html{
     }
     .wheel1 img{
         right: 2%;
-        animation: wheelRotation 0.13s infinite forwards;
+        animation: wheelRotation 0.1s infinite forwards;
     }
     .wheel2 img{
-        animation: wheelRotation 0.13s infinite forwards;
+        animation: wheelRotation 0.1s infinite forwards;
     }
     
 }
@@ -207,9 +207,11 @@ html{
     }
     #play{
         top: 30vh;
+        left: 25vw;
     }
     #pause{
         top: 35vh;
+        left: 30vw;
     }
 }
 html, body {
