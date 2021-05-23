@@ -304,9 +304,6 @@ p{
     .trees{
         bottom: 27vh;/*50*/
     }
-    .track{
-        animation-timing: 1s;
-    }
 }
 @media(max-height: 500px){
     .trees{
