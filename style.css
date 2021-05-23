@@ -28,6 +28,7 @@ html, body {
     z-index: 0;
     background-repeat: no-repeat;
     /* background-image: url(/Car-Animated/trees.png); */
+    background-size: cover;/*na*/
     
     
 }
