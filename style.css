@@ -157,8 +157,8 @@ html, body {
         left: 25vw;
     }
     .track{
-        width: 1900vw;
-        animation: move linear 5s infinite;
+        width: 3900vw;
+        animation: move linear 3s infinite;
         }
 }
 @media(max-width: 600px){
@@ -179,7 +179,7 @@ html, body {
         right: 4.5%;
     }
     .track{
-        width: 2300vw;
+        width: 3300vw;
         animation: move linear 3s infinite;
         }
 }
@@ -277,7 +277,7 @@ p{
         height: 25px;
     }
      .track{
-        width: 2800vw !important;
+        width: 3800vw !important;
     animation: move linear 2s infinite;
     }
     .trees{
@@ -290,7 +290,7 @@ p{
         top: 7vh;
     }
     .track{
-        width: 2900vw;
+        width: 3900vw;
         animation: move linear 2s infinite;
     }
 }
