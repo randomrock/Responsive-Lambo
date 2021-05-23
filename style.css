@@ -129,7 +129,7 @@ html, body {
     }
     .track{
         width: 900vw;
-    animation: move linear 10.9s infinite;
+    animation: move linear 5s infinite;
     }
 }
 @media(max-width: 1000px){
@@ -209,7 +209,7 @@ html, body {
     }
      .track{
         width: 1200vw;
-    animation: move linear 8s infinite;
+    animation: move linear 4s infinite;/*8*/
     }
 }
 #play{
