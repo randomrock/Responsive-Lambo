@@ -142,9 +142,17 @@
     .wheel1 img{
         right: 4.8%;
     }
+    #play{
+        top: 30vh;
+        left: 25vw;
+    }
+    #pause{
+        top: 35vh;
+        left: 25vw;
+    }
     .track{
         width: 900vw;
-        animation: move linear 3s infinite;
+        animation: move linear 5s infinite;
         }
 }
 @media(max-width: 500px){
