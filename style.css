@@ -157,8 +157,8 @@ html, body {
         left: 25vw;
     }
     .track{
-        width: 900vw;
-        animation: move linear 8s infinite;
+        width: 1900vw;
+        animation: move linear 4s infinite;
         }
 }
 @media(max-width: 600px){
@@ -179,8 +179,8 @@ html, body {
         right: 4.5%;
     }
     .track{
-        width: 900vw;
-        animation: move linear 8s infinite;
+        width: 2300vw;
+        animation: move linear 2s infinite;
         }
 }
 @media(max-width: 400px){
@@ -209,7 +209,7 @@ html, body {
         left: 34.5%;
     }
      .track{
-        width: 1200vw;
+        width: 3800vw;
     animation: move linear 3s infinite;/*8*/
     }
 }
