@@ -126,7 +126,7 @@ html{
         right: 6.8%;
     }
     .track{
-    animation: move linear 4s infinite;
+    animation: move linear 3s infinite;
     }
 }
 @media(max-width: 1000px){
@@ -145,7 +145,7 @@ html{
         right: 4.8%;
     }
     .track{
-        animation: move linear 3s infinite;
+        animation: move linear 2.5s infinite;
         }
 }
 @media(max-width: 500px){
@@ -165,7 +165,12 @@ html{
     }
     .wheel1 img{
         right: 2%;
+        animation: wheelRotation 0.13s infinite forwards;
     }
+    .wheel2 img{
+        animation: wheelRotation 0.13s infinite forwards;
+    }
+    
 }
 @media(max-width: 300px){
     .wheel1 img{
