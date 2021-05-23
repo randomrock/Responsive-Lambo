@@ -187,16 +187,16 @@
 }
 #play{
     position: absolute;
-    bottom: 80vh;
-    left: 25vw;
+    bottom: 65vh;
+    left: 22vw;
     width: 100px;
     background-color: tan;
     
 }
 #pause{
     position: absolute;
-    bottom: 75vh;
-    left: 25vw;
+    bottom: 60vh;
+    left: 22vw;
     width: 100px;
     background-color: tan;
 }
@@ -235,13 +235,12 @@ html, body {
 }
 p{
     position: absolute;
-    top: 10vh;
+    top: 7vh;
     left: 35vw;
     width: 30%;
     text-align: center;
-    font-size: larger;
+    font-size: 55px;
     font-weight: bolder;
-    color: whitesmoke;
-    background-color: red;
-    border: 2px solid black;
+    color: peru;
+
 }
