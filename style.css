@@ -35,11 +35,11 @@ html, body {
 .track{
     position: absolute;
     top: 65vh;
-    width: 1700vw;
+    width: 700vw;
     height: 100vh;
     background-repeat: repeat-x;
     background-image: url(/Responsive-Lambo/track.png);
-    animation: move linear 10s infinite;
+    animation: move linear 8s infinite;
     
 }
 .car{
