@@ -12,7 +12,7 @@
     height: 100vh;
     max-height: 100vh;
     background-repeat: no-repeat;
-    background-image: url(/Car-Animated/background.jpg);
+    background-image: url(/Responsive-Lambo/background.jpg);
     animation: shake2 2s linear infinite;
 }
 .trees{
@@ -32,7 +32,7 @@
     width: 700vw;
     height: 100vh;
     background-repeat: repeat-x;
-    background-image: url(/Car-Animated/track.png);
+    background-image: url(/Responsive-Lambo/track.png);
     animation: move linear 10s infinite;
     
 }
