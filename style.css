@@ -38,7 +38,7 @@ html, body {
     height: 100vh;
     background-repeat: repeat-x;
     background-image: url(/Responsive-Lambo/track.png);
-    animation: move linear 9s infinite;
+    animation: move linear 10s infinite;
     
 }
 .car{
@@ -129,7 +129,7 @@ html, body {
     }
     .track{
         width: 900vw;
-    animation: move linear 9s infinite;
+    animation: move linear 10.9s infinite;
     }
 }
 @media(max-width: 1000px){
@@ -157,7 +157,7 @@ html, body {
     }
     .track{
         width: 900vw;
-        animation: move linear 9s infinite;
+        animation: move linear 10.9s infinite;
         }
 }
 @media(max-width: 600px){
@@ -209,7 +209,7 @@ html, body {
     }
      .track{
         width: 1200vw;
-    animation: move linear 9s infinite;
+    animation: move linear 10.9s infinite;
     }
 }
 #play{
@@ -277,10 +277,10 @@ p{
     }
      .track{
         width: 1300vw;
-    animation: move linear 9s infinite;
+    animation: move linear 10s infinite;
     }
     .trees{
-        bottom: 68vh;
+        bottom: 80vh;
     }
 }
 @media(max-width: 700px){
