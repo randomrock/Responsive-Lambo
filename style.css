@@ -152,7 +152,7 @@
     }
     .track{
         width: 900vw;
-        animation: move linear 7s infinite;
+        animation: move linear 8s infinite;
         }
 }
 @media(max-width: 600px){
@@ -174,7 +174,7 @@
     }
     .track{
         width: 900vw;
-        animation: move linear 6.5s infinite;
+        animation: move linear 7.7s infinite;
         }
 }
 @media(max-width: 400px){
@@ -228,12 +228,12 @@
 
     }
     #play{
-        top: 30vh;
+        top: 40vh;
         left: 25vw;
     }
     #pause{
-        top: 35vh;
-        left: 25vw;
+        top: 40vh;
+        left: 40vw;
     }
 }
 html, body {
@@ -266,7 +266,13 @@ p{
     color: peru;
 
 }
-@media(max-width: 600px){
+@media(max-width:900px){
+    p{
+        font-size: 32px;
+        top: 10vh;
+    }
+}
+@media(max-width: 700px){
     p{
         font-size: 28px !important;
         top: 7vh;
