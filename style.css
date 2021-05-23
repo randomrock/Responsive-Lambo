@@ -291,18 +291,18 @@ p{
     }
     .track{
         width: 3900vw;
-        animation: move linear 2s infinite;
+        animation: move linear 1s infinite;
     }
 }
 /*Overriding Changes*/
 @media(max-height: 600px){
     .trees{
-        bottom: 63vh;
+        bottom: 55vh;/*63*/
     }
 }
 @media(max-height: 700px){
     .trees{
-        bottom: 50vh;
+        bottom: 60vh;/*50*/
     }
     .track{
         animation-duration: 1s;
@@ -310,6 +310,6 @@ p{
 }
 @media(max-height: 500px){
     .trees{
-        bottom: 70vh;
+        bottom: 58vh;/*70*/
     }
 }
