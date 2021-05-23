@@ -276,11 +276,11 @@ p{
         height: 25px;
     }
      .track{
-        width: 1300vw;
-    animation: move linear 5s infinite;
+        width: 2600vw !important;
+    animation: move linear 3s infinite;
     }
     .trees{
-        bottom: 90vh;
+        bottom: 100vh;
     }
 }
 @media(max-width: 700px){
