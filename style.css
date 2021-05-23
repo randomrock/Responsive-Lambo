@@ -297,19 +297,19 @@ p{
 /*Overriding Changes*/
 @media(max-height: 600px){
     .trees{
-        bottom: 70vh;/*63*/
+        bottom: 27vh;/*63*/
     }
 }
 @media(max-height: 700px){
     .trees{
-        bottom: 37vh;/*50*/
+        bottom: 27vh;/*50*/
     }
     .track{
-        animation-duration: 1s;
+        animation-timing: 2s;
     }
 }
 @media(max-height: 500px){
     .trees{
-        bottom: 78vh;/*70*/
+        bottom: 50vh;/*70*/
     }
 }
