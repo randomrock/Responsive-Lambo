@@ -281,7 +281,7 @@ p{
     animation: move linear 2s infinite;
     }
     .trees{
-        bottom: 100vh;
+        bottom: 77vh;/*100*/
     }
 }
 @media(max-width: 700px){
