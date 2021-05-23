@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 .container-fluid{
     margin: 0;
     padding: 0;
@@ -229,11 +234,7 @@
     }
     
 }
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
+
 @keyframes slide{
     0%{
         transform: translateX(-120vw); 
@@ -267,10 +268,12 @@ p{
     #play{
         top: 40vh;
         left: 25vw;
+        height: 25px;
     }
     #pause{
         top: 40vh;
         left: 40vw;
+        height: 25px;
     }
      .track{
         width: 900vw;
