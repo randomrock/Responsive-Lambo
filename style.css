@@ -164,7 +164,7 @@
     }
     .track{
         width: 900vw;
-        animation: move linear 3s infinite;
+        animation: move linear 4.5s infinite;
         }
 }
 @media(max-width: 400px){
