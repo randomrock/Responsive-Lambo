@@ -124,7 +124,7 @@
     }
     .track{
         width: 900vw;
-    animation: move linear 3s infinite;
+    animation: move linear 9s infinite;
     }
 }
 @media(max-width: 1000px){
@@ -183,10 +183,10 @@
     }
     .wheel1 img{
         right: 2%;
-        animation: wheelRotation 0.1s infinite forwards;
+        animation: wheelRotation 0.08s infinite forwards;
     }
     .wheel2 img{
-        animation: wheelRotation 0.1s infinite forwards;
+        animation: wheelRotation 0.08s infinite forwards;
     }
     
 }
@@ -201,6 +201,10 @@
     .wheel2{
         top: 35%;
         left: 34.5%;
+    }
+     .track{
+        width: 900vw;
+    animation: move linear 3s infinite;
     }
 }
 #play{
@@ -249,7 +253,7 @@ html, body {
     }
 }
 #creator{
-    animation: slide 10s ease-in-out infinite;
+    animation: slide 11s ease-in-out infinite;
 }
 p{
     position: absolute;
@@ -265,6 +269,6 @@ p{
 @media(max-width: 600px){
     p{
         font-size: 28px !important;
-        top: 17vh;
+        top: 7vh;
     }
 }
