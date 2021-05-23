@@ -180,3 +180,30 @@ html{
         left: 34.5%;
     }
 }
+#play{
+    position: absolute;
+    bottom: 80vh;
+    left: 25vw;
+    width: 100px;
+    background-color: tan;
+    
+}
+#pause{
+    position: absolute;
+    bottom: 75vh;
+    left: 25vw;
+    width: 100px;
+    background-color: tan;
+}
+@media(max-width: 600px){
+    #play,#pause{
+        height: 30px;
+
+    }
+    #play{
+        top: 30vh;
+    }
+    #pause{
+        top: 35vh;
+    }
+}
