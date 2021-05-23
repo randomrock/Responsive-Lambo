@@ -155,6 +155,16 @@
         animation: move linear 5s infinite;
         }
 }
+@media(max-width: 600px){
+    #pause{
+    top: 51vh;
+    left: 27vw;
+}
+    #play{
+    top: 46vh;
+    left: 27vw;
+    }
+}
 @media(max-width: 500px){
     .car{
         top: 61vh;
