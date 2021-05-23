@@ -34,7 +34,7 @@ html, body {
 .track{
     position: absolute;
     top: 65vh;
-    width: 700vw;
+    width: 1700vw;
     height: 100vh;
     background-repeat: repeat-x;
     background-image: url(/Responsive-Lambo/track.png);
@@ -287,5 +287,9 @@ p{
     p{
         font-size: 28px !important;
         top: 7vh;
+    }
+    .track{
+        width: 2000vw;
+        animation: move linear 3.5s infinite;
     }
 }
