@@ -305,11 +305,11 @@ p{
         bottom: 27vh;/*50*/
     }
     .track{
-        animation-timing: 2s;
+        animation-timing: 1s;
     }
 }
 @media(max-height: 500px){
     .trees{
-        bottom: 50vh;/*70*/
+        bottom: 85vh;/*70*/
     }
 }
