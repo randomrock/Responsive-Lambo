@@ -64,7 +64,7 @@
     width: 28%;
     right: 7.2%;
     top: 17%;
-    animation: wheelRotation 0.1s infinite forwards;
+    animation: wheelRotation 0.2s infinite forwards;
 }
 .wheel2{
     width: 35%;
@@ -78,7 +78,7 @@
     width: 32%;
     left: 12%;
     bottom: 34%;
-    animation: wheelRotation 0.1s infinite forwards;
+    animation: wheelRotation 0.2s infinite forwards;
 }
 
 @keyframes wheelRotation{
