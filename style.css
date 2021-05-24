@@ -309,5 +309,7 @@ p{
     .trees{
         bottom: 95vh;/*70*/
     }
+    .track{
      animation: move linear 1s infinite;
+    }
 }
