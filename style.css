@@ -311,7 +311,7 @@ p{
 }
 @media(max-height: 500px){
     .trees{
-        bottom: 95vh;/*70*/
+        bottom: 105vh;/*70*/
     }
     .track{
      animation: move linear 1s infinite;
