@@ -94,7 +94,7 @@ html, body {
 }
 @keyframes move{
     100%{
-        transform: translateX(-50vw);/*-500*/
+        transform: translateX(-200vw);/*-500*/
     }
 }
 
