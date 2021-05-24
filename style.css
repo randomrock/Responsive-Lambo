@@ -278,7 +278,7 @@ p{
     }
      .track{
         width: 3800vw !important;
-    animation: move linear 2s infinite;
+    animation: move linear 1s infinite;
     }
     .trees{
         bottom: 77vh;/*100*/
@@ -309,4 +309,5 @@ p{
     .trees{
         bottom: 95vh;/*70*/
     }
+     animation: move linear 1s infinite;
 }
