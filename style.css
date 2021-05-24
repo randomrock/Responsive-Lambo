@@ -94,7 +94,7 @@ html, body {
 }
 @keyframes move{
     100%{
-        transform: translateX(-200vw);/*-500*/
+        transform: translateX(-500vw);/*-500*/
     }
 }
 
@@ -303,6 +303,10 @@ p{
 @media(max-height: 700px){
     .trees{
         bottom: 27vh;/*50*/
+    }
+    @keyframes move{
+    100%{
+        transform: translateX(-300vw);/*-500*/
     }
 }
 @media(max-height: 500px){
