@@ -35,7 +35,7 @@ html, body {
 .track{
     position: absolute;
     top: 65vh;
-    width: 1100vw;/*700*/
+    width: 2100vw;/*700*/
     height: 100vh;
     background-repeat: repeat-x;
     background-image: url(/Responsive-Lambo/track.png);
@@ -94,7 +94,7 @@ html, body {
 }
 @keyframes move{
     100%{
-        transform: translateX(-400vw);/*-500*/
+        transform: translateX(-300vw);/*-500*/
     }
 }
 
