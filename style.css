@@ -35,7 +35,7 @@ html, body {
 .track{
     position: absolute;
     top: 65vh;
-    width: 900vw;/*700*/
+    width: 1100vw;/*700*/
     height: 100vh;
     background-repeat: repeat-x;
     background-image: url(/Responsive-Lambo/track.png);
